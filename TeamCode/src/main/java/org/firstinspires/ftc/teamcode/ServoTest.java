@@ -49,7 +49,7 @@ import com.qualcomm.robotcore.hardware.Servo;
  */
 
 @TeleOp(name="ServoTest", group="Linear Opmode")
-@Disabled
+//@Disabled
 public class ServoTest extends LinearOpMode {
 
     private Servo RightIntake;

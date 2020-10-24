@@ -28,16 +28,16 @@ public class Mechanisms {
     private double BACK_HOOK_STONE          = 0.45  ;        // Stone drag position for servo hook
 
     //A higher number means closer to the ground near stone position
-    private double RIGHT_INTAKE_SERVO_PARK  = 0.05  ;        // Park location (full up) for the intake servo
-    private double RIGHT_INTAKE_SERVO_MID1  = 0.20  ;        // Middle position for a action yet to be determined.
-    private double RIGHT_INTAKE_SERVO_MID2  = 0.10  ;        // Middle position for a action yet to be determined.
-    private double RIGHT_INTAKE_SERVO_STONE = 0.46  ;        // Stone pickup location for the intake servo
+    private double RIGHT_INTAKE_SERVO_PARK  = 0.16  ;        // Park location (full up) for the intake servo
+    private double RIGHT_INTAKE_SERVO_MID1  = 0.45  ;        // Middle position for a action yet to be determined.
+    private double RIGHT_INTAKE_SERVO_MID2  = 0.35  ;        // Middle position for a action yet to be determined.
+    private double RIGHT_INTAKE_SERVO_STONE = 0.47  ;        // Stone pickup location for the intake servo
 
     //A lower number means closer to the ground near stone position
-    private double LEFT_INTAKE_SERVO_PARK   = 0.79  ;        // Park location (full up) for the intake servo
-    private double LEFT_INTAKE_SERVO_MID1   = 0.50  ;        // Middle position for a action yet to be determined.
+    private double LEFT_INTAKE_SERVO_PARK   = 0.87  ;        // Park location (full up) for the intake servo
+    private double LEFT_INTAKE_SERVO_MID1   = 0.70  ;        // Middle position for a action yet to be determined.
     private double LEFT_INTAKE_SERVO_MID2   = 0.60  ;        // Middle position for a action yet to be determined.
-    private double LEFT_INTAKE_SERVO_STONE  = 0.39  ;        // Stone pickup location for the intake servo
+    private double LEFT_INTAKE_SERVO_STONE  = 0.57 ;        // Stone pickup location for the intake servo
 
     private int isBusyTime = 0;
 
