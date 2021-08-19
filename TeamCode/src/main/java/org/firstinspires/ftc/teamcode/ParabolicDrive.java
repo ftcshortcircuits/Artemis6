@@ -152,7 +152,7 @@ public class ParabolicDrive extends LinearOpMode {
 
     // Physical parameters for lift powerplant
     static final double     LIFT_COUNTS_PER_MOTOR_REV   = 28.0; // Encoder countable events / rev
-    static final double     LIFT_GEARBOX_REDUCTION      = 26.9; // goBILDA 5202-0002-0027
+    static final double     LIFT_GEARBOX_REDUCTION      = 19.2; // goBILDA 5202-0002-0019
     static final double     LIFT_WINCH_DIAMETER         = (38.0/MM_PER_INCH); // goBILDA 3407-0016-0001
     static final double     LIFT_RUN_LENGTH             = 20.5; // Travel from full down to full up - inches
     static final double     LIFT_COUNTS_PER_INCH        = (LIFT_COUNTS_PER_MOTOR_REV * LIFT_GEARBOX_REDUCTION) / (LIFT_WINCH_DIAMETER * Math.PI);
